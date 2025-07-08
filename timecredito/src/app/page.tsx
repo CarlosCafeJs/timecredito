@@ -1,7 +1,9 @@
+import Menu from '@/app/components/menu'
+
 export default function Home() {
   return (
     <main>
-      <div>Hello world!</div>
+      <Menu />
     </main>
   );
 }
