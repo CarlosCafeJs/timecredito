@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+@layer utilities {
+  .bg-cinza {
+    background-color: #EBEBEB;
+  }
+
+  .text-cinza {
+    color: #EBEBEB;
+  }
+
+  .bg-laranja {
+    background-color: #FF5E00;
+  }
+
+  .text-laranja {
+    color: #FF5E00;
+  }
+}
