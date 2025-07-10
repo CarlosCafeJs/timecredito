@@ -39,11 +39,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" className="bg-[#E8824A]">
-      <Menu />
-      <body>{children}</body>
-      <Footer />
+      <body>
+        <Menu />
+        {children}
+        <Footer />
+      </body>
       <Analytics />
-      
     </html>
   );
 }
