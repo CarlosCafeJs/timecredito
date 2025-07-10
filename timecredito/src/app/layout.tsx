@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Menu from '@/app/components/menu'
+
 import "./globals.css";
 import { Analytics } from '@vercel/analytics/next';
 
@@ -36,9 +38,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR" className="bg-[#E8824A]">
-      <body>{children}</body>
-      <Analytics />
+    <html lang="pt-BR" className="bg-[#FB7E35]"  >
+
+      <body>
+        <Menu />
+        {children}
+        <Analytics />
+      </body>
+
     </html>
   );
 }
