@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Analytics } from '@vercel/analytics/next';
+import Menu from '@/app/components/menu'
+import Footer from '@/app/components/footer'
 
 export const metadata: Metadata = {
   title: "TIME Promotora de Crédito | Crédito Consignado e Soluções Financeiras",
@@ -37,8 +39,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" className="bg-[#E8824A]">
+      <Menu />
       <body>{children}</body>
+      <Footer />
       <Analytics />
+      
     </html>
   );
 }
