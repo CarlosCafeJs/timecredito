@@ -5,55 +5,57 @@ const WaveSvg = ({
   style = {}
 }) => {
   return (
-    <svg
-      width="100%"
-      height="auto"
-      viewBox="0 0 1512 593"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className={className}
-      style={style}
-      preserveAspectRatio="xMidYMid slice"
-    >
-      <g filter="url(#filter0_i_35_16)">
-        <path
-          d="M-5 3.12329C-5 3.12329 85 58.2778 329.5 58.2778C574 58.2778 942 10.1507 1164 3.12329C1386 -3.90412 1512 3.12329 1512 3.12329V593H-5V3.12329Z"
-          fill="white"
-        />
-      </g>
-      <g filter="url(#filter1_i_35_16)">
-        <path
-          d="M-5 66.7862C-5 66.7862 80.5 171.5 325 171.5C569.5 171.5 942 73.0552 1164 66.7862C1386 60.5172 1512 66.7862 1512 66.7862V593H-5V66.7862Z"
-          fill="white"
-        />
-      </g>
-      <path
-        d="M1225 112C1063 123 733 196.5 733 196.5C1129.5 144 1323 167 1441 196.5L1470.5 102C1470.5 102 1399 95.0424 1225 112Z"
-        fill="#F98A4A"
-      />
-      <defs>
-        <filter id="filter0_i_35_16" x="-5" y="0" width="1517" height="610" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-          <feFlood floodOpacity="0" result="BackgroundImageFix" />
-          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-          <feOffset dy="17" />
-          <feGaussianBlur stdDeviation="60" />
-          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-          <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.00392157 0 0 0 0 0.254902 0 0 0 0.4 0" />
-          <feBlend mode="normal" in2="shape" result="effect1_innerShadow_35_16" />
-        </filter>
-        <filter id="filter1_i_35_16" x="-5" y="64" width="1517" height="546" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-          <feFlood floodOpacity="0" result="BackgroundImageFix" />
-          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-          <feOffset dy="17" />
-          <feGaussianBlur stdDeviation="60" />
-          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-          <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.00392157 0 0 0 0 0.254902 0 0 0 0.4 0" />
-          <feBlend mode="normal" in2="shape" result="effect1_innerShadow_35_16" />
-        </filter>
-      </defs>
-    </svg>
+    <svg width="1512" height="auto" viewBox="0 0 1512 500" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}
+    style={style}
+    preserveAspectRatio="xMidYMid slice">
+<g filter="url(#filter0_i_35_142)">
+<path d="M-3 5.70603C-3 5.70603 87 106.469 331.5 106.469C576 106.469 944 18.5446 1166 5.70603C1388 -7.13253 1514 5.70603 1514 5.70603V3636H-3V5.70603Z" fill="#F98B4B"/>
+</g>
+<defs>
+<filter id="filter0_i_35_142" x="-3" y="0" width="1517" height="3653" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="17"/>
+<feGaussianBlur stdDeviation="60"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.00392157 0 0 0 0 0.254902 0 0 0 0.4 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_35_142"/>
+</filter>
+</defs>
+</svg>
+  );
+};
+
+const WaveSvg2 = ({
+  className = "",
+  style = {}
+}) => {
+  return (
+    <svg width="1512" height="auto" viewBox="0 50 1512 500" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}
+    style={style}
+    preserveAspectRatio="xMidYMid slice">
+
+<g filter="url(#filter0_i_73_126)">
+<path d="M-6 5.70603C-6 5.70603 84 106.469 328.5 106.469C573 106.469 941 18.5446 1163 5.70603C1385 -7.13253 1511 5.70603 1511 5.70603V3636H-6V5.70603Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_i_73_126" x="-6" y="0" width="1517" height="3653" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="17"/>
+<feGaussianBlur stdDeviation="60"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.00392157 0 0 0 0 0.254902 0 0 0 0.4 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_73_126"/>
+</filter>
+</defs>
+</svg>
+
+  
+
+   
   );
 };
 
@@ -66,20 +68,34 @@ const Banner = () => {
         <div className="absolute inset-0 w-full h-full">
           <WaveSvg className="w-full h-full object-cover" />
         </div>
-
+        
         {/* Conteúdo sobre o SVG */}
-        <div className="relative z-10 container mx-auto px-4 py-16 md:py-24 lg:py-32">
-          <div className=" mx-auto text-center">
-            <div>
-              <ul>
-                <li><div className="w">
-                  <svg width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="0.554138" width="42" height="42" rx="21" fill="#FF5D00" />
-                    <path d="M21.5541 11.9C20.6986 11.9 19.9662 11.603 19.3569 11.009C18.7477 10.415 18.443 9.70087 18.443 8.86671C18.443 8.03254 18.7477 7.31844 19.3569 6.72442C19.9662 6.13039 20.6986 5.83337 21.5541 5.83337C22.4097 5.83337 23.1421 6.13039 23.7514 6.72442C24.3606 7.31844 24.6653 8.03254 24.6653 8.86671C24.6653 9.70087 24.3606 10.415 23.7514 11.009C23.1421 11.603 22.4097 11.9 21.5541 11.9ZM16.8875 36.1667V16.45C15.3319 16.3237 13.7504 16.1341 12.143 15.8813C10.5356 15.6285 9.00599 15.3125 7.55414 14.9334L8.33192 11.9C10.3541 12.4309 12.506 12.8164 14.7875 13.0565C17.069 13.2966 19.3245 13.4167 21.5541 13.4167C23.7838 13.4167 26.0393 13.2966 28.3208 13.0565C30.6023 12.8164 32.7541 12.4309 34.7764 11.9L35.5541 14.9334C34.1023 15.3125 32.5727 15.6285 30.9653 15.8813C29.3578 16.1341 27.7764 16.3237 26.2208 16.45V36.1667H23.1097V27.0667H19.9986V36.1667H16.8875Z" fill="#E3E3E3" />
-                  </svg>
-                </div><p>Atendimento humanizado</p></li>
+        <div className="relative container mx-auto px-4 pt-15 md:py-24 lg:pt-60">
 
-              </ul>
+            <Image src="/bancos.png" alt="" width={1300} height={243} className="mx-auto"/>
+            <div className="flex justify-center gap-3 items-center bg-[#FFFFFF] w-95 p-3 mx-auto">
+              <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg border border-[#FF0000]">
+  <path d="M15.3333 25.3334H18.6666V15.3334H15.3333V25.3334ZM17 12C17.4722 12 17.868 11.8403 18.1875 11.5209C18.5069 11.2014 18.6666 10.8056 18.6666 10.3334C18.6666 9.86115 18.5069 9.46532 18.1875 9.14587C17.868 8.82643 17.4722 8.66671 17 8.66671C16.5278 8.66671 16.1319 8.82643 15.8125 9.14587C15.493 9.46532 15.3333 9.86115 15.3333 10.3334C15.3333 10.8056 15.493 11.2014 15.8125 11.5209C16.1319 11.8403 16.5278 12 17 12ZM17 33.6667C14.6944 33.6667 12.5278 33.2292 10.5 32.3542C8.4722 31.4792 6.70831 30.2917 5.20831 28.7917C3.70831 27.2917 2.52081 25.5278 1.64581 23.5C0.770813 21.4723 0.333313 19.3056 0.333313 17C0.333313 14.6945 0.770813 12.5278 1.64581 10.5C2.52081 8.47226 3.70831 6.70837 5.20831 5.20837C6.70831 3.70837 8.4722 2.52087 10.5 1.64587C12.5278 0.770874 14.6944 0.333374 17 0.333374C19.3055 0.333374 21.4722 0.770874 23.5 1.64587C25.5278 2.52087 27.2916 3.70837 28.7916 5.20837C30.2916 6.70837 31.4791 8.47226 32.3541 10.5C33.2291 12.5278 33.6666 14.6945 33.6666 17C33.6666 19.3056 33.2291 21.4723 32.3541 23.5C31.4791 25.5278 30.2916 27.2917 28.7916 28.7917C27.2916 30.2917 25.5278 31.4792 23.5 32.3542C21.4722 33.2292 19.3055 33.6667 17 33.6667ZM17 30.3334C20.7222 30.3334 23.875 29.0417 26.4583 26.4584C29.0416 23.875 30.3333 20.7223 30.3333 17C30.3333 13.2778 29.0416 10.125 26.4583 7.54171C23.875 4.95837 20.7222 3.66671 17 3.66671C13.2778 3.66671 10.125 4.95837 7.54165 7.54171C4.95831 10.125 3.66665 13.2778 3.66665 17C3.66665 20.7223 4.95831 23.875 7.54165 26.4584C10.125 29.0417 13.2778 30.3334 17 30.3334Z" fill="#FF0004"/>
+              </svg>
+
+              <p>Não Solicitamos Pagamentos Adiatandos</p>
+
+            </div>
+
+        
+        </div>
+      </section>
+      <section className="relative w-full min-h-[400px] md:min-h-[500px] lg:min-h-[600px] overflow-hidden">
+        {/* SVG como fundo */}
+        <div className="absolute inset-0 w-full h-full">
+          <WaveSvg2 className="w-full h-full object-cover" />
+        </div>
+        
+        {/* Conteúdo sobre o SVG */}
+        <div className="relative container mx-auto px-4 pt-16 md:py-24 lg:pt-65">
+          <div className=" mx-auto text-center ">
+            <div>
+              
             </div>
 
             <div>

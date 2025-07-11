@@ -4,7 +4,6 @@ import { Analytics } from '@vercel/analytics/next';
 import Menu from '@/app/components/menu'
 import Footer from '@/app/components/footer'
 
-
 export const metadata: Metadata = {
   title: "TIME Promotora de Crédito | Crédito Consignado e Soluções Financeiras",
   description: "Especialistas em crédito consignado para aposentados, servidores, militares e pensionistas. Atendimento humanizado, taxas reduzidas e liberação rápida com a TIME Promotora de Crédito.",
